@@ -9,9 +9,8 @@ Instituto Mauá de Tecnologia · Prof. Dr. Aparecido V. de Freitas
 
 | Nome | RA |
 |---|---|
-| Leo _(sobrenome)_ | _(RA)_ |
-| _(integrante 2)_ | _(RA)_ |
-| _(integrante 3)_ | _(RA)_ |
+| Leonardo Souza Olivieri |
+
 
 ---
 
