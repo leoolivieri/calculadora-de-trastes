@@ -1,0 +1,13 @@
+{:paths ["src" "resources"]
+
+ ;; Nenhuma dependência além do próprio Clojure: o servidor HTTP é o que
+ ;; já vem no Java (com.sun.net.httpserver) e o JSON é gerado em trastes.json.
+ :deps {org.clojure/clojure {:mvn/version "1.12.0"}}
+
+ :aliases
+ {;; Sobe a API:            clj -M:run
+  :run  {:main-opts ["-m" "trastes.main"]}
+
+  ;; Roda os testes:        clj -M:test
+  :test {:extra-paths ["test"]
+         :main-opts   ["-m" "trastes.executar-testes"]}}}
